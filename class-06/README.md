@@ -6,7 +6,7 @@ Today, we'll be looking at ways to create an account and securely authenticate a
 
 ## Learning Objectives
 
-### Students will be able to
+### Students will be able to do the following:
 
 #### Describe and Define
 
@@ -99,7 +99,7 @@ console.log( carrot.points() ); // 10
 
 ### Static Methods operate at the model level, before (or without) an instance
 
-These are useful for looking things up (like a user), pre-loading queries, validating an instance, etc. Generally, use these to return instances or collections
+These are useful for looking things up (like a user), pre-loading queries, validating an instance, etc. Generally, use these to return instances or collections.
 
 ```javascript
 // food-model.js

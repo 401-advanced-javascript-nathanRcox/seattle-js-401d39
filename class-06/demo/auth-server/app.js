@@ -1,6 +1,6 @@
 'use strict';
 
-// 3rd part libraries
+// 3rd party libraries
 const express = require('express');
 const app = express();
 const base64 = require('base-64');

@@ -41,7 +41,7 @@ Data Modeling: The process of taking a real world or conceptual idea and encodin
 | ------------------------ | --------------------------------------------------------------------------- |
 | `mongo`                  | Launch the mongo shell. Once in the shell, you should see `>`               |
 | `show dbs`               | Show all the databases                                                      |
-| `use db <name>`          | Use the database with name `<name>`                                         |
+| `use db <name>`          | Make/Use/View the database with name (no hyphens allowed; underscore only) `<name>`                                         |
 | `show collections`       | Show all the collections in the current database                            |
 | `db.<collection>.find()` | List all the documents / records in the specified collection `<collection>` |
 | `db.<collection>.save()` | Save a new document / record to the specified collection `<collection>`     |
