@@ -27,7 +27,7 @@ export const reset = () => {
 // switch statement to determijne what the type is
 // the default return is state
 
-export default (state = initialState, action) => {
+const caseSwitch = (state = initialState, action) => {
   let { type, payload } = action;
   switch (type) {
     case 'INCREMENT':
@@ -57,3 +57,5 @@ export default (state = initialState, action) => {
       return state;
   }
 }
+
+export default caseSwitch;
